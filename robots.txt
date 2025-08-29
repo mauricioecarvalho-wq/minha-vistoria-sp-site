@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://minhavistoriasp.com.br/sitemap.xml
+
+# Páginas importantes para indexação
+Allow: /
+Allow: /assets/
+
+# Evitar indexação de arquivos desnecessários
+Disallow: /src/
+Disallow: /*.json$
+Disallow: /*.config.js$
+
